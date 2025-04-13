@@ -6,7 +6,15 @@ public class TribonacciFolge {
     public static void main(String[] args) {
         int n = askForNumber();
         int tribonacciFolge[] = getTribonacciFolge(n);
+
+        // Uebung 2
         System.out.println(tribonacciFolge[n]);
+
+        // Uebung 3
+        System.out.println();
+        for (int z : tribonacciFolge) {
+            System.out.println(z);
+        }
     }
 
     private static int[] getTribonacciFolge(int n) {
